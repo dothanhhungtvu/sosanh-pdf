@@ -175,9 +175,9 @@ def main():
     api_key = st.sidebar.text_input("🔑 OpenRouter API Key", type="password", help="Nhập API Key cung cấp bởi OpenRouter.")
     
     models = {
-        "Gemini 2.0 Flash": "google/gemini-2.0-flash",
+        "Gemini 2.0 Flash": "google/gemini-2.0-flash-001",
         "GPT-4o Mini": "openai/gpt-4o-mini",
-        "Gemini 1.5 Pro": "google/gemini-1.5-pro",
+        "Gemini 2.0 Flash Lite": "google/gemini-2.0-flash-lite-001",
         "Claude 3 Haiku": "anthropic/claude-3-haiku",
     }
     model_name = st.sidebar.selectbox("🧠 Chọn AI Model", list(models.keys()))
